@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: YourAgentPoolName
+  name: 'Default'
 
 variables:
   solution: '**/*.sln'
