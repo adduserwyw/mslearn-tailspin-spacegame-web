@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: Default
+  vmImage: 'windows-latest' # This tells the pipeline to use a fresh Windows VM from Microsoft
 
 variables:
   solution: '**/*.sln'
